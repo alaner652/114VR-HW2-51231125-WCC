@@ -1,17 +1,96 @@
-# unity ignore dir
-/[Bb]in/
+# Unity generated directories
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
- 
-# unity ignore file
-*.csproj
-*.unityproj
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/.utmp/
+/[Rr]ecordings/
+
+# Asset pipeline caches
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# Platform specific build output
+*.apk
+*.aab
+*.app
+*.ipa
+*.unitypackage
+
+# Auto generated solution/project files
+ExportedObj/
+.consulo/
 *.sln
+*.suo
+*.tmp
 *.user
 *.userprefs
-*.meta
+*.pidb
+*.pidb.meta
+*.pdb
+*.pdb.meta
+*.mdb
+*.mdb.meta
+*.opendb
+*.svd
+*.booproj
+*.unityproj
+*.csproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.njsproj
+*.sln.iml
+*.VC.db
+
+# IDE specific
+.vs/
+.vsconfig
+.vscode/
+*.DotSettings.user
+.idea/
+
+# Gradle
+.gradle/
+
+# Crash reports
+sysinfo.txt
+crashlytics-build.properties
+mono_crash.*
+
+# Editor settings caches
+InitTestScene*.unity*
+
+# 3D application generated backups
+*.blend1
+*.blend1.meta
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.swp
 *.tmp
- 
-# need include the meta of file
-!*.*.meta
+*.bak
+*.orig
+
+# Rider generated files
+/[Aa]ssets/Plugins/Editor/JetBrains*
